@@ -35,6 +35,7 @@ Public leaderboard is based on randomly selected 30% of the test images, while p
 ## Rank 43 Solution Description
 
 Public Score: 0.978570485726328, Private Score: 0.971401987620533
+
 Public Rank: 32, Private Rank: 43
 
 The solution uses simple averaging of 3 convnet models. The models were trained using transfer learning and progressive image resizing with the help of FastAI DL framework. Once cycle learning and learning rate tuning was also done. Below are the models that were tuned for the problem:
