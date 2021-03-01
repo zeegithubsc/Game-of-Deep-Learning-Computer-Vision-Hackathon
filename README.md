@@ -1,4 +1,4 @@
-# Game-of-Deep-Learning-Computer-Vision-Hackathon
+# Game-of-Deep-Learning-Computer-Vision-Hackathon (Rank 43 Solution)
 
 ## Problem Statement
 Ship or vessel detection has a wide range of applications, in the areas of maritime safety,  fisheries management, marine pollution, defence and maritime security, protection from piracy, illegal migration, etc.
@@ -31,3 +31,16 @@ The Evaluation metric for this competition is weighted F1 Score.
 
 ## Public and Private Split
 Public leaderboard is based on randomly selected 30% of the test images, while private leaderboard will be evaluated on remaining 70% of the test images.
+
+## Rank 43 Solution Description
+
+Public Score: 0.978570485726328, Private Score: 0.971401987620533
+Public Rank: 32, Private Rank: 43
+
+The solution uses simple averaging of 3 convnet models. The models were trained using transfer learning and progressive image resizing with the help of FastAI DL framework. Once cycle learning and learning rate tuning was also done. Below are the models that were tuned for the problem:
+
+Seed = 2019 - Resnet 152
+seed = 12345 - Resnet 152
+seed = 555 - densenet 201
+
+012_submission.ipynb contains the entire code.
