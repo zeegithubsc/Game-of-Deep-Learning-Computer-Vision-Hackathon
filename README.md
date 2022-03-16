@@ -1,4 +1,4 @@
-# Game-of-Deep-Learning-Computer-Vision-Hackathon (Rank 43 Solution)
+# Game-of-Deep-Learning-Computer-Vision-Hackathon (Rank 43 Solution, user: xeeman)
 
 ## Problem Statement
 Ship or vessel detection has a wide range of applications, in the areas of maritime safety,  fisheries management, marine pollution, defence and maritime security, protection from piracy, illegal migration, etc.
